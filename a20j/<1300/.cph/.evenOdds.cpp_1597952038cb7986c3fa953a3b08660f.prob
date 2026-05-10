@@ -1,0 +1,1 @@
+{"name":"Local: evenOdds","url":"/Users/aryathakur/Desktop/CPP/a20j/<1300/evenOdds.cpp","tests":[{"id":1778430192327,"input":"10 3\n","output":"5"},{"id":1778430210142,"input":"7 7\n","output":"6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/aryathakur/Desktop/CPP/a20j/<1300/evenOdds.cpp","group":"local","local":true}
