@@ -1,0 +1,1 @@
+{"name":"Local: almostPrime","url":"/Users/aryathakur/Desktop/CPP/cfPractice/900Rated/almostPrime.cpp","tests":[{"id":1779279910638,"input":"10\n","output":"2\n"},{"id":1779279949294,"input":"21\n","output":"8\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/aryathakur/Desktop/CPP/cfPractice/900Rated/almostPrime.cpp","group":"local","local":true}
