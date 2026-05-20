@@ -18,7 +18,7 @@ int main(){
 
         if(n2 == 1) {
             int cnt = 0;
-            for(ll i=2; i*i<=n1; ++i){
+            for(int i=2; i*i<=n1; ++i){
                 if(n1%i == 0) {
                     cnt++;
                     if(n1/i != i) cnt++;
