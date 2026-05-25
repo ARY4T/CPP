@@ -29,10 +29,10 @@ int main(){
 
         int minOps = accumulate(blocks.begin(), blocks.end(), 0) - blocks.size();
 
-        int seq = 1;
+        ll seq = 1;
 
         for(int i=0; i<blocks.size(); ++i){
-            seq *= blocks[i];
+            seq *= (blocks[i]%mod);
             seq %= mod;
         }
 
