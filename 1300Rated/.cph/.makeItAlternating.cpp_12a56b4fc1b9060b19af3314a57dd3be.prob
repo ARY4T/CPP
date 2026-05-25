@@ -1,0 +1,1 @@
+{"name":"Local: makeItAlternating","url":"/Users/aryathakur/Desktop/CPP/1300Rated/makeItAlternating.cpp","tests":[{"id":1779736727320,"input":"3\n10010\n111\n0101\n","output":"1 2\n2 6\n0 1\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/aryathakur/Desktop/CPP/1300Rated/makeItAlternating.cpp","group":"local","local":true}
