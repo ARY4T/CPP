@@ -18,7 +18,7 @@ int main(){
 
         for(int i=0; i<n; ++i){
             int low = 1, high = i+1;
-            int cost = 0q;
+            int cost = 0;
 
             while(low<=high){   
                 int mid = low + (high-low)/2;
