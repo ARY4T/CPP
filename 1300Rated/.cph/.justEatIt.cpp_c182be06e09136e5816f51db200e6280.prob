@@ -1,0 +1,1 @@
+{"name":"Local: justEatIt","url":"/Users/aryathakur/Desktop/CPP/1300Rated/justEatIt.cpp","tests":[{"id":1781555238854,"input":"3\n4\n1 2 3 4\n3\n7 4 -1\n3\n5 -5 5\n","output":"YES\nNO\nNO\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/aryathakur/Desktop/CPP/1300Rated/justEatIt.cpp","group":"local","local":true}
