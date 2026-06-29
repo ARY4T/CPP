@@ -5,8 +5,6 @@ using namespace std;
 #define pb push_back
 using ll = long long;
 
-// NA
-
 void bfs(int node, vector<vector<int>> &adj, set<vector<int>> &guild){
     queue<int> q;
     q.push(node);
