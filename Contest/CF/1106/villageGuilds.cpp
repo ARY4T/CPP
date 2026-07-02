@@ -5,28 +5,25 @@ using namespace std;
 #define pb push_back
 using ll = long long;
 
-void bfs(int node, vector<vector<int>> &adj, set<vector<int>> &guild){
-    queue<int> q;
-    q.push(node);
+void dfs(int node, int parent, vector<int> &height, vector<vector<int>> &adj, int &ans){
+    int mx = 0;
+    int smx = 0;
 
-    while(!q.empty()){
-        int n = q.size();
-        vector<int> cur;
+    for(auto u: adj[node]){
+        if(u == parent) continue;
 
-        for(int i=0; i<n; ++i){
-            int el = q.front();
-            q.pop();
+        dfs(u, node, height, adj, ans);
+        int x = height[u]+1;
 
-            cur.push_back(el);
-            for(int i=0; i<adj[el].size(); ++i){
-                q.push(adj[el][i]);
-            }
+        if(x>mx) {
+            smx = mx;
+            mx = x;
         }
-
-        sort(cur.begin(), cur.end());
-        guild.insert(cur);
+        else smx = max(smx, x);
     }
 
+    height[node] = mx;
+    ans += smx+1;
 }
 
 int main(){
@@ -36,23 +33,21 @@ int main(){
     
     while(tc--){
         int n; cin>>n;
+        vector<vector<int>> adj(n);
 
-        vector<vector<int>> adj(n+1);
-
-        for(int i=2; i<=n; ++i){
-            int el; cin>>el;
-            adj[el].pb(i);
+        for(int i=1; i<n; ++i){
+            int p; cin>>p;
+            p--;
+            adj[i].push_back(p);
+            adj[p].push_back(i);
         }
 
-        set<vector<int>> guild;
+        vector<int> height(n);
 
-        for(int i=1; i<=n; ++i) bfs(i, adj, guild);
+        int ans = 0;
+        dfs(0, -1, height, adj, ans);
 
-        for(int i=1; i<=n; ++i){
-            guild.insert({i});
-        }
-
-        cout<<guild.size()<<nl;
+        cout<<ans<<nl;
     }      
   
 }
