@@ -1,0 +1,1 @@
+{"name":"Local: aBitOdd","url":"/Users/aryathakur/Desktop/CPP/Contest/CF/1107/aBitOdd.cpp","tests":[{"id":1783200605504,"input":"3\n5\n10101\n4\n0100\n6\n011001\n","output":"Alice\nAlice\nBob\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/aryathakur/Desktop/CPP/Contest/CF/1107/aBitOdd.cpp","group":"local","local":true}

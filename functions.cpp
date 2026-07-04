@@ -11,6 +11,8 @@ ll mod_mul(ll a, ll b, ll m) {a = a % m; b = b % m; return (((a * b) % m) + m) %
 ll mod_sub(ll a, ll b, ll m) {a = a % m; b = b % m; return (((a - b) % m) + m) % m;}
 ll mod_div(ll a, ll b, ll m) {a = a % m; b = b % m; return (mod_mul(a, mminvprime(b, m), m)) % m;}  //only for prime m
 
+// to get square root via bs
+ll root(ll x){ll l=0,r=x;while(l<=r){ll m=(l+r)>>1;m*m<=x?l=m+1:r=m-1;}return r;}
 
 int main(){
     ios::sync_with_stdio(false);
