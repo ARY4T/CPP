@@ -1,1 +1,0 @@
-{"name":"Local: kString","url":"/Users/aryathakur/Desktop/CPP/a20j/<1300/kString.cpp","tests":[{"id":1781460910478,"input":"2\naazz\n","output":"azaz\n"},{"id":1781460917886,"input":"3\nabcabcabz\n","output":"-1\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/aryathakur/Desktop/CPP/a20j/<1300/kString.cpp","group":"local","local":true}

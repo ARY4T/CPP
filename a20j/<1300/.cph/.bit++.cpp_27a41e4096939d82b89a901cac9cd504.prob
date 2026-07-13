@@ -1,1 +1,0 @@
-{"name":"Local: bit++","url":"/Users/aryathakur/Desktop/CPP/a20j/<1300/bit++.cpp","tests":[{"id":1777825152234,"input":"1\n++X\n","output":"1\n"},{"id":1777825160676,"input":"2\nX++\n--X\n","output":"0\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/aryathakur/Desktop/CPP/a20j/<1300/bit++.cpp","group":"local","local":true}

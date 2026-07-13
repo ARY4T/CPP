@@ -1,1 +1,0 @@
-{"name":"Local: Football96A","url":"/Users/aryathakur/Desktop/CPP/a20j/<1300/Football96A.cpp","tests":[{"id":1781978636486,"input":"001001\n","output":"NO\n"},{"id":1781978645033,"input":"1000000001\n","output":"YES\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/aryathakur/Desktop/CPP/a20j/<1300/Football96A.cpp","group":"local","local":true}

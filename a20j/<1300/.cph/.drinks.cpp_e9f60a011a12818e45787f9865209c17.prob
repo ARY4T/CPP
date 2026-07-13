@@ -1,1 +1,0 @@
-{"name":"Local: drinks","url":"/Users/aryathakur/Desktop/CPP/a20j/<1300/drinks.cpp","tests":[{"id":1776876158061,"input":"3\n50 50 100\n","output":"66.666666666667\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/aryathakur/Desktop/CPP/a20j/<1300/drinks.cpp","group":"local","local":true}

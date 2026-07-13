@@ -1,1 +1,0 @@
-{"name":"Local: maximumWidthOfBt","url":"/Users/aryathakur/Desktop/CPP/DSA/Tree/maximumWidthOfBt.cpp","tests":[{"id":1779002463943,"input":"1 3 2 5 3 null 9","output":"4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/aryathakur/Desktop/CPP/DSA/Tree/maximumWidthOfBt.cpp","group":"local","local":true}

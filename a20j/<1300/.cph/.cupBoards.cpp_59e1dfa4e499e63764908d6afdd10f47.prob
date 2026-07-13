@@ -1,1 +1,0 @@
-{"name":"Local: cupBoards","url":"/Users/aryathakur/Desktop/CPP/a20j/<1300/cupBoards.cpp","tests":[{"id":1776948650801,"input":"5\n0 1\n1 0\n0 1\n1 1\n0 1\n","output":"3\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/aryathakur/Desktop/CPP/a20j/<1300/cupBoards.cpp","group":"local","local":true}
