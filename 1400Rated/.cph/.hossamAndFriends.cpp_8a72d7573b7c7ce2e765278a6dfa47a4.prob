@@ -1,0 +1,1 @@
+{"name":"Local: hossamAndFriends","url":"/Users/aryathakur/Desktop/CPP/1400Rated/hossamAndFriends.cpp","tests":[{"id":1784671867727,"input":"2\n3 2\n1 3\n2 3\n4 2\n1 2\n2 3\n","output":"4\n5\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/aryathakur/Desktop/CPP/1400Rated/hossamAndFriends.cpp","group":"local","local":true}
